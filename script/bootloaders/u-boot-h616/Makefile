@@ -31,6 +31,7 @@ PATCHFILES  += 161-dts-zero2w-improvements.patch
 PATCHFILES  += 162-add-tx1-defconfig.patch
 PATCHFILES  += 163-add-x96-q-ddr3-v5.1-defconfig.patch
 PATCHFILES  += 164-add-tx1-v1.2-defconfig.patch
+PATCHFILES  += 166-add-t95z-plus-defconfig.patch
 
 WORKSRC      = $(WORKDIR)/u-boot-$(GARVERSION)
 LICENSE      = GPL2
@@ -64,6 +65,7 @@ include ../../python3/python/package-api.mk
 # mm_U-BOOT_BOARD_TYPE = tanix_tx6s_kingston_lpddr3_defconfig
 # mm_U-BOOT_BOARD_TYPE = pendoo-x12_defconfig
 # mm_U-BOOT_BOARD_TYPE = vontar_h618_defconfig
+# mm_U-BOOT_BOARD_TYPE = t95z_plus_defconfig
 
 CONFIGURE_ARGS = $(mm_U-BOOT_BOARD_TYPE)
 
